@@ -1,0 +1,33 @@
+input {
+  height: 30px;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #F5F5F5;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin: 0;
+}
+
+.build {
+  height: 30%;
+  width: 25%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px grey;
+  padding: 15px;
+  position: absolute;
+  left: 20rem;
+  top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

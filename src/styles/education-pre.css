@@ -1,0 +1,30 @@
+h2 {
+  margin: 0;
+}
+
+.edu-icon {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#chevron {
+  margin-left: 290px;
+  border: none;
+  background: none;
+}
+
+.edu-pre {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px grey;
+  width: 25vw;
+  height: auto;
+  position: absolute;
+  top: 24rem;
+  left: 20rem;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  
+  }

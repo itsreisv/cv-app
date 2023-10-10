@@ -1,0 +1,54 @@
+.list-build {
+background-color: white;
+border-radius: 10px;
+box-shadow: 1px 1px 1px grey;
+width: 26.65vw;
+height: auto;
+position: absolute;
+top: 24rem;
+left: 20rem;
+}
+
+h3 {
+  margin: 0;
+}
+
+.entry {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  border-top: 5px solid #D3D3D3;
+  padding: 15px;
+}
+
+
+.add-edu {
+background: none;
+border: solid black 1px;
+border-radius: 15px;
+font-size: 15px;
+font-weight: bold;
+padding: 15px;
+}
+
+.edu {
+display: flex;
+justify-content: center;
+align-items: center;
+border-top: 5px solid #D3D3D3;
+padding: 15px;
+}
+
+
+.edu-header {
+  padding: 15px;
+}
+
+.name-button {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  border-top: 5px solid #D3D3D3;
+}

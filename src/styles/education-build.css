@@ -1,0 +1,63 @@
+.edu-build {
+background-color: white;
+border-radius: 10px;
+box-shadow: 1px 1px 1px grey;
+width: 26.5vw;
+height: auto;
+position: absolute;
+top: 24rem;
+left: 20rem;
+}
+
+.edu-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.submit {
+  background-color: lightgreen;
+  border: 1px solid grey;
+  width: 15%;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.submit:hover {
+  border: 1px solid black;
+}
+
+.submit:active {
+  background-color: green;
+}
+
+.cancel {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  width: 15%;
+}
+
+.cancel:hover {
+  border: 1px solid black;
+}
+
+.cancel:active {
+  background-color: grey;
+}
+
+.edu-buttons {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 15px;
+}
+
+.edu-input {
+  padding: 15px;
+}
