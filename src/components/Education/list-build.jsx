@@ -3,7 +3,7 @@ import '/src/styles/list-build.css'
 import { NewButtons } from "./name-buttons";
 
 
-export function ListBuild({change, build, list}) {
+export function ListBuild({change, build, list, click}) {
 
   return (
     <div className="list-build">
@@ -13,7 +13,7 @@ export function ListBuild({change, build, list}) {
       <img src="../src/assets/chevron-down-outline.svg" className="edu-icon" id="chevron" onClick={change} />
       </div>
       <div className="entries"> {list.map((item) => (
-        <NewButtons key={item.id} data={item} />
+        <NewButtons key={item.id} data={item} click={click}/>
       ))}
         <div className="edu"> 
         <button type="button" className="add-edu" onClick={build} >+ Education</button>

@@ -13,7 +13,7 @@ export function EduBuild({change, setter}) {
       </div>
       <div className="edu-input">
         <label htmlFor="school">School</label>
-        <input type="text" id="school" />
+        <input type="text" id="school" /> 
         <label htmlFor="degree">Degree</label>
         <input type="text"  id="degree" />
         <label htmlFor="start">Start Date</label>

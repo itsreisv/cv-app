@@ -12,9 +12,10 @@ export function App() {
   const [phone, setPhone] = useState('567-318-7942');
   const [location, setLocation] = useState('Albany, NY');
   const [listItems, setListItems] = useState([
-    {name: 'University of Toledo', degree: 'Computer Science', start: '08/2020', end: '08/2023', location: 'Toledo, OH'},
-    {name: 'Owens Community College', degree: 'Information Technology', start: '08/2020', end: '08/2023', location: 'Toledo, OH'}
+    {name: 'University of Toledo', degree: 'Computer Science', start: '08/2020', end: '08/2023', location: 'Toledo, OH', id:1},
+    {name: 'Owens Community College', degree: 'Information Technology', start: '08/2020', end: '08/2023', location: 'Toledo, OH', id:2}
   ])
+   
 
   useEffect(() => {
     console.log(listItems)
@@ -35,6 +36,7 @@ export function App() {
   function pushObject(newObj) {
     setListItems(listItems => [...listItems, newObj])
   }
+
 
   function submitForm() {
     const name = document.querySelector('#school');
@@ -58,10 +60,10 @@ export function App() {
       start: start,
       end: end,
       location: location,
+      id: name,
     }
     pushObject(newObj);
   }
-
 
   return (
     <div className='app'>

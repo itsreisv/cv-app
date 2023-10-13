@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-export function NewButtons({data}) {
+export function NewButtons({data, click}) {
   return (
     <div>
-      <button type="text" className="name-button">{data.name}</button>
+      <button type="text" className="name-button" onClick={click} >{data.name}</button>
     </div>
   )
 }
