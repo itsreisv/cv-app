@@ -21,12 +21,6 @@ export function App() {
     {name: 'Facebook', title: 'Project Manager', start: '08/2020', end: '08/2023', location: 'Seattle, WA', description: 'Managed a team of 50 developers to build the most successful and most used social media website in the world. Helped pioneer and pave the wave for future minimlist UI/UX designed social media web pages.'}
   ])
    
-
-  useEffect(() => {
-    console.log(listItems)
-    console.log(expItems)
-  })
-
   function getText(val) {
     setText(val.target.value)
   }
