@@ -5,6 +5,7 @@ import { NewButtons } from "./name-buttons";
 
 export function ListBuild({change, build, list, click}) {
 
+
   return (
     <div className="list-build">
     <div className="edu-header">
@@ -12,8 +13,9 @@ export function ListBuild({change, build, list, click}) {
       <h2>Education</h2>
       <img src="../src/assets/chevron-down-outline.svg" className="edu-icon" id="chevron" onClick={change} />
       </div>
-      <div className="entries"> {list.map((item) => (
-        <NewButtons key={item.id} data={item} click={click}/>
+      <div className="entries"> 
+      {list.map((item, index) => (
+        <NewButtons key={index} data={item} click={click}/>
       ))}
         <div className="edu"> 
         <button type="button" className="add-edu" onClick={build} >+ Education</button>

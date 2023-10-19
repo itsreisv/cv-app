@@ -1,8 +1,9 @@
 import { useState } from "react";
 import '/src/styles/preview.css'
 import { EducationInfo } from "./Education/school-preview";
+import { ExpInfo } from "./Experience/exp-preview";
 
-export function Preview({text, email, phone, location, list}) {
+export function Preview({text, email, phone, location, list, data}) {
   return (
 <div className='preview'>
   <div className='header'>
@@ -19,7 +20,13 @@ export function Preview({text, email, phone, location, list}) {
         <EducationInfo key={index} data={item} />
       ))}
   </div>
-  <div className="experience"></div>
+  <div className="experience">
+    <div className="experience-head">Experience</div>
+    {data.map((item, index) => (
+      <ExpInfo key={index} data={item}/>
+    ))}
+    
+  </div>
   </div>
   )
 }

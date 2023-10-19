@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Inputs } from "./label-input";
 
-export function UpdateInput({change, setter, data}) {
+export function UpdateInput({change, setter, data, edit, netter}) {
 
 
   return (
@@ -12,7 +12,7 @@ export function UpdateInput({change, setter, data}) {
     <img src="../src/assets/chevron-down-outline.svg" className="edu-icon" id="chevron" onClick={change} />
     </div>
     <div className="edu-input">
-              <Inputs data={data}/>
+              <Inputs data={data} edit={edit} netter={netter}/>
     </div>
     <div className="edu-buttons">
       <button type="button" className="cancel" onClick={change} >Cancel</button>

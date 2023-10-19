@@ -1,0 +1,114 @@
+h2 {
+  margin: 0;
+}
+.edu-icon-new {
+  width: 25px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#chevron {
+  margin-left: 290px;
+  border: none;
+  background: none;
+}
+
+.exp-dropdown {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px grey;
+  width: 25vw;
+  height: auto;
+  position: absolute;
+  top: 28rem;
+  left: 19.999rem;
+  z-index: -1;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  
+  }
+
+  .exp-dropdown-list {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px grey;
+    width: 25vw;
+    height: 40%;
+    position: absolute;
+    top: 28rem;
+    left: 19.999rem;
+    z-index: -1;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+    
+    }
+
+.exp-name-button {
+  width: 100%;
+  background: none;
+  border: none;
+  font-size: 20px;
+  border-top: 5px solid #D3D3D3;
+}
+
+.exp-list {
+  background-color: white;
+border-radius: 10px;
+box-shadow: 1px 1px 1px grey;
+width: 26.65vw;
+height: auto;
+position: absolute;
+top: 28rem;
+left: 20rem;
+display: flex;
+flex-direction: column;
+}
+
+.exp-header {
+  display: flex;
+  align-items: start;
+  padding: 15px;
+}
+
+.add-exp {
+  background: none;
+border: solid black 1px;
+border-radius: 15px;
+font-size: 15px;
+font-weight: bold;
+padding: 15px;
+}
+
+.exp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px solid #D3D3D3;
+  padding: 10px;
+}
+
+.exp-info {
+  background-color: white;
+border-radius: 10px;
+box-shadow: 1px 1px 1px grey;
+width: 26.65vw;
+height: auto;
+position: absolute;
+top: 28rem;
+left: 20rem;
+}
+
+.exp-input {
+  padding: 15px;
+}
+
+.exp-buttons {
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}

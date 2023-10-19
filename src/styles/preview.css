@@ -89,3 +89,40 @@ p {
 .school {
   font-weight: bold;
 }
+
+.experience-head {
+  width: 99%;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.experience {
+  padding: 20px;
+}
+
+.exp-container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.company-name {
+  font-weight: bold;
+}
+
+.exp-left-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.exp-right-container {
+  padding: 10px;
+}
